@@ -15,7 +15,7 @@ import mobilitymapper
 
 # How to score a video
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.PNG)
 
 1. Select "Load Video" and navigate to desired video. Enter a custom duration and press "Custom Time"(optional).
 
