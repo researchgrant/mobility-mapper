@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="mobility-mapper", # Replace with your own username
+    name="mobility-mapper",
     version="0.0.1",
     author="Grant Weiss",
     author_email="grant.weiss@me.com",
     description="For manually scoring mobility in behavior tests",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/researchgrant/mobility-mapper/",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
