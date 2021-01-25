@@ -25,9 +25,11 @@ import mobilitymapper
 
 3. Toggle between mobile and immobile using the button or hotkey 'M'.
 
-4. When the timer reaches zero, total time immobile and latency to first immobility will be displayed.
+4. The slider can be used to revisit and revise previous sections of the video. 
 
-5. Enter an animal identifier and select save to excel to export the raw data. 
+5. When the timer reaches zero, total time immobile and latency to first immobility will be displayed.
+
+6. Enter an animal identifier and select save to excel to export the raw data. 
 
 
 
