@@ -7,7 +7,9 @@ This app is ideal for manual scoring of behaviors in preparation for training au
 
 This app runs on python. If new to python, it is recommended to install Anaconda or Miniconda. This will install python along with common packages, and allow you to create isolated environments for each python app.
 
-In your desired environment run: pip install mobilitymapper
+In your desired environment run: 
+
+pip install mobilitymapper
 
 In command line:
 
