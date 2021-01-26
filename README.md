@@ -13,9 +13,7 @@ In your desired environment run:
 
 In command line:
 
-    python
-
-    import mobilitymapper
+    python -m mobilitymapper
 
 # How to score a video
 
