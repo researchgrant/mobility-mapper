@@ -9,13 +9,13 @@ This app runs on python. If new to python, it is recommended to install Anaconda
 
 In your desired environment run: 
 
-pip install mobilitymapper
+-> pip install mobilitymapper
 
 In command line:
 
-python
+-> python
 
-import mobilitymapper
+-> import mobilitymapper
 
 # How to score a video
 
