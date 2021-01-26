@@ -5,7 +5,11 @@ This app is ideal for manual scoring of behaviors in preparation for training au
 
 # Install Using PIP:
 
-In your desired environment run: pip install mobilitymapper==0.0.10
+This app runs on python. If new to python, it is recommended to install Anaconda or Miniconda. This will install python along with common packages, and allow you to create isolated environments for each python app.
+
+In your desired environment run: 
+
+pip install mobilitymapper
 
 In command line:
 
@@ -15,7 +19,7 @@ import mobilitymapper
 
 # How to score a video
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.PNG)
 
 1. Select "Load Video" and navigate to desired video. Enter a custom duration and press "Custom Time"(optional).
 
@@ -23,9 +27,11 @@ import mobilitymapper
 
 3. Toggle between mobile and immobile using the button or hotkey 'M'.
 
-4. When the timer reaches zero, total time immobile and latency to first immobility will be displayed.
+4. The slider can be used to revisit and revise previous sections of the video. 
 
-5. Enter an animal identifier and select save to excel to export the raw data. 
+5. When the timer reaches zero, total time immobile and latency to first immobility will be displayed.
+
+6. Enter an animal identifier and select save to excel to export the raw data. 
 
 
 
