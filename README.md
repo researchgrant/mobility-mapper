@@ -9,7 +9,7 @@ This app runs on python. If new to python, it is recommended to install Anaconda
 
 In your desired environment run: 
 
-    pip install mobility-mapper==0.0.10
+    pip install mobility-mapper
 
 In command line:
 
