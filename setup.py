@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="mobility-mapper",
-    version="0.0.13",
+    version="0.0.14",
     author="Grant Weiss",
     author_email="grant.weiss@me.com",
     description="For manually scoring mobility in behavior tests",
@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/researchgrant/mobility-mapper/",
     packages=setuptools.find_packages(),
-    install_requires=['numpy', 'pandas', 'opencv-python','PyQt5<=5.12','pyqtgraph','pyqtwebengine<=5.12'],
+    install_requires=['numpy', 'pandas', 'opencv-python','PyQt5>=5.12','pyqtgraph','pyqtwebengine<=>.12'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
