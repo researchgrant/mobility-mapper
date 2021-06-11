@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="mobility-mapper",
-    version="0.0.16",
+    version="0.0.17",
     author="Grant Weiss",
     author_email="grant.weiss@me.com",
     description="For manually scoring mobility in behavior tests",
