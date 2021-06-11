@@ -1,12 +1,35 @@
+{% set version = "0.0.17" %}
+
 package:
-  name: conda_gc_test
-  version: 1.2.1
+  name: mobility_mapper
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/i/mobility-mapper/mobility-mapper-{{ version }}.tar.gz
+  sha256: f3832918bc3c66617f92e35f5d70729187676313caa60c187eb0f28b8fe5e3b5
 
 build:
-  number: 3
+  noarch: python
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
+  host:
+    - python
+    - pip
   run:
     - python
+
+test:
+  imports:
+    - mobilitymapper
+
 about:
-  summary: This is a simple meta-package
+  home: https://github.com/researchgrant/mobility-mapper
+  license: MIT
+  summary: 'Track mobility bouts over time'
+  description: |
+    This app allows allows for the scoring of behavioral videos involving mobility (or any other binary behavior).
+  dev_url: https://github.com/researchgrant/mobility-mapper
+  doc_url: https://pypi.org/project/mobility-mapper/
+  doc_source_url: https://github.com/researchgrant/mobility-mapper/blob/master/README.md
