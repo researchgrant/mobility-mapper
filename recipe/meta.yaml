@@ -19,6 +19,12 @@ requirements:
     - pip
   run:
     - python
+    - numpy
+    - pandas
+    - opencv-python
+    - PyQt5==5.12
+    - pyqtgraph==5.12
+    - pyqtwebengine==5.12
 
 test:
   imports:
