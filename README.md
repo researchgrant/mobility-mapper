@@ -17,7 +17,8 @@ Create an environment with python 3.6 and install:
 
 To run the app:
 
-    python -m mobilitymapper
+	conda activate mobility
+	python -m mobilitymapper
 
 # How to score a video
 
