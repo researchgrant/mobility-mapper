@@ -5,8 +5,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/i/mobility-mapper/mobility-mapper-{{ version }}.tar.gz
-  sha256: f3832918bc3c66617f92e35f5d70729187676313caa60c187eb0f28b8fe5e3b5
+  url: https://files.pythonhosted.org/packages/4f/c0/221c7c48cf166713a38826e21a3faefe27a9f111417c44e0e1774a75b26d/mobility-mapper-0.0.17.tar.gz
+  sha256: 713906ceaf7074408ccce961f4944056030eb813fb0fde09491b40bc265c332d
 
 build:
   noarch: python
@@ -21,10 +21,9 @@ requirements:
     - python
     - numpy
     - pandas
-    - opencv-python
-    - PyQt5==5.12
-    - pyqtgraph==5.12
-    - pyqtwebengine==5.12
+    - opencv
+    - pyqt
+    - pyqtgraph
 
 test:
   imports:
