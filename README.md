@@ -9,11 +9,13 @@
 
 This app runs on python. If new to python, it is recommended to install Anaconda or Miniconda. This will install python along with common packages, and allow you to create isolated environments for each python app.
 
-In your desired environment run: 
+Create an environment with python 3.6 and install: 
+	
+	conda create -n mobility python=3.6
+	conda activate mobility
+	pip install mobility-mapper
 
-    pip install mobility-mapper
-
-In command line:
+To run the app:
 
     python -m mobilitymapper
 
