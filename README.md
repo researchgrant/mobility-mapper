@@ -5,9 +5,14 @@
 - Total time immobile and latency to immobility are calculated in the app, but the raw fame-wise state data can also be saved to excel for further analysis.
 - This app is ideal for manual scoring of behaviors in preparation for training automated bahavior detection using machine learning and [DeepLabCut](https://github.com/DeepLabCut/DeepLabCut).
 
-# Install Using PIP:
-
 This app runs on python. If new to python, it is recommended to install Anaconda or Miniconda. This will install python along with common packages, and allow you to create isolated environments for each python app.
+
+# Install Using Conda:
+
+        conda create -n mobility -c researchgrant mobility-mapper
+
+
+# Install Using PIP:
 
 Create an environment with python 3.6 and install: 
 	
@@ -15,7 +20,7 @@ Create an environment with python 3.6 and install:
 	conda activate mobility
 	pip install mobility-mapper
 
-To run the app:
+# To run the app:
 
 	conda activate mobility
 	python -m mobilitymapper
