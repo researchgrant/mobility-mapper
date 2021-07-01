@@ -11,19 +11,16 @@ This app runs on python. If new to python, it is recommended to install Anaconda
 
         conda create -n mobility -c researchgrant mobility_mapper
 
+# To run the app:
+
+	conda activate mobility
+	python -m mobilitymapper
 
 # Install Using PIP:
 
 Create an environment with python 3.6 and install: 
 	
-	conda create -n mobility python=3.6
-	conda activate mobility
 	pip install mobility-mapper
-
-# To run the app:
-
-	conda activate mobility
-	python -m mobilitymapper
 
 # How to score a video
 
