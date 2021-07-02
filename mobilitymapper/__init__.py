@@ -157,6 +157,7 @@ ui.pauseButton.clicked.connect(lambda: pause())
 def endCalc():
     if gv.timeRemain <= 0 and not gv.calc:
         latency = (np.argmax(gv.graphArray==0) - np.argmax(gv.graphArray==1))/gv.fps
+        if latency <0: latency = gv.experTime
         ui.lcdNumber.display(0) #rounds timer to 0
         timeImmobile = np.sum(gv.graphArray == 0)/gv.fps
         print("Time Immobile:", timeImmobile, " sec")
