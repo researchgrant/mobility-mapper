@@ -5,8 +5,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/4f/c0/221c7c48cf166713a38826e21a3faefe27a9f111417c44e0e1774a75b26d/mobility-mapper-0.0.17.tar.gz
-  sha256: 713906ceaf7074408ccce961f4944056030eb813fb0fde09491b40bc265c332d
+  url: 'https://files.pythonhosted.org/packages/6a/15/9940571633fccd7924e5a7269c271034d0a1b73e119426820cc99484ca62/mobility-mapper-0.0.18.tar.gz'
+  sha256: '0cd795f64a1ddccc4c4a3af51db65910e60d56fcafc1945b30adf681b551c9bc'
 
 build:
   noarch: python
