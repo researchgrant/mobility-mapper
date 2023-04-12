@@ -9,7 +9,7 @@ This app runs on python. If new to python, it is recommended to install Anaconda
 
 # Install Using Conda:
 
-	conda create -n mobility -c researchgrant mobility_mapper
+	conda create -n mobility -c researchgrant mobility_mapper python=3.6
 
 # To run the app:
 
